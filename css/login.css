@@ -1,0 +1,88 @@
+/* Login and Register Container */
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #3498db; /* Soft blue */
+}
+
+/* Form Styles */
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-container label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2c3e50; /* Dark blue-gray */
+    text-align: left;
+}
+
+.login-container input, .login-container select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.login-container input:focus, .login-container select:focus {
+    border-color: #3498db; /* Soft blue */
+    outline: none;
+}
+
+.login-container button {
+    padding: 12px;
+    background: #3498db; /* Soft blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.login-container button:hover {
+    background: #2980b9; /* Darker blue */
+    transform: translateY(-2px);
+}
+
+/* Link Styles */
+.login-container p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.login-container p a {
+    color: #3498db; /* Soft blue */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.login-container p a:hover {
+    color: #2980b9; /* Darker blue */
+}
+
+/* Error Message Styles */
+.error-message {
+    color: #e74c3c; /* Red */
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
